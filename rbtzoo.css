@@ -1,13 +1,32 @@
 h1{
-font-family: cursive;
+font-family:Snell Roundhand;
+text-align: center;
 }
 
-
-
 body {
-color: red;
+color: #F6E801;
 font-weight: bold;
 width:600px;
 margin:auto;
 background-image: url(https://images6.alphacoders.com/314/314064.jpg);
+}
+
+img{
+width: 400px;
+height: 400px;
+  }
+#conteneur{
+  display: flex;
+  justify-content:space-around;
+}
+
+#conteneur{
+  display: flex;
+  justify-content: space-around;
+
+}
+
+select{
+  background-color: green;
+
 }
