@@ -1,6 +1,7 @@
 h1{
 font-family:Snell Roundhand;
 text-align: center;
+size: 7000px;
 }
 
 body {
@@ -11,22 +12,23 @@ margin:auto;
 background-image: url(https://images6.alphacoders.com/314/314064.jpg);
 }
 
-img{
-width: 400px;
-height: 400px;
-  }
-#conteneur{
-  display: flex;
-  justify-content:space-around;
+section{
+display:flex;
 }
 
-#conteneur{
+img{
+width: 200px;
+height: 200px;
+  }
+div{
   display: flex;
-  justify-content: space-around;
-
+  justify-content:space-between;
+  background-image: url(http://familyfindsfun.com/wp-content/uploads/2013/09/hollister.png);
+  background-repeat: no-repeat;
 }
 
 select{
   background-color: green;
-
 }
+/*github: summary;ce qu'on a fait
+commit et en haut a droite publish*/
