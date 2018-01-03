@@ -2,29 +2,59 @@ h1{
 font-family:Snell Roundhand;
 text-align: center;
 size: 7000px;
+border: solid;
+padding: 8px;
+background-color: red;
+width: 750px;
 }
 
 body {
-color: #F6E801;
+color: white;
 font-weight: bold;
 width:600px;
-margin:auto;
-background-image: url(https://images6.alphacoders.com/314/314064.jpg);
-}
-
-section{
-display:flex;
+margin-left:25%;
+margin-right:25%;
+background-color:blue;
 }
 
 img{
 width: 200px;
 height: 200px;
   }
-div{
+
+.container-1{
+  border: solid;
+  padding: 40px;
+  width: 760px;
+}
+.container-1{
   display: flex;
   justify-content:space-between;
-  background-image: url(http://familyfindsfun.com/wp-content/uploads/2013/09/hollister.png);
-  background-repeat: no-repeat;
+  text-align: center;
+}
+.container-2{
+  border: solid;
+  border-color: red;
+  padding: 30px;
+  width: 770px;
+  background-color: green;
+}
+
+.container-2 {
+  display: flex;
+  justify-content: space-between;
+}
+.container-3{
+border: solid;
+border-color: green;
+padding: 50px;
+width: 750px;
+}
+
+.container-3{
+display: flex;
+align-items: flex-end;
+flex-direction: column;
 }
 
 select{
