@@ -21,7 +21,7 @@ background:linear-gradient(#0EF0C5, black);
   text-align: center;
   font-size: 23px;
   font-family: Bernard MT Condensed;
-  background: firebrick;
+  background: blue;
   width: 250px;
   transition: 2s;
   }
@@ -156,8 +156,11 @@ transition-property: background-color;
 transition-duration: 2s;
 transition-delay: 0s;
 background-color: yellow;
-
 }
 select{
   background-color: violet;
+}
+
+h3{
+  font-size: 32px;
 }
