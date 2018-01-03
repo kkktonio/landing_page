@@ -14,9 +14,18 @@ font-weight: bold;
 width:600px;
 margin-left:25%;
 margin-right:25%;
-background-color:blue;
+background:linear-gradient(yellow, red);
 }
-
+.homme{
+  text-align: center;
+  }
+  .homme{
+    display: flex;
+    justify-content: center;
+  }
+#femme{
+  text-align: center;
+}
 img{
 width: 200px;
 height: 200px;
@@ -24,17 +33,23 @@ height: 200px;
 
 .container-1{
   border: solid;
+  border-color: blue;
   padding: 40px;
   width: 760px;
+  background-color: green;
 }
-.container-1{
-  display: flex;
-  justify-content:space-between;
-  text-align: center;
+.box-1{
+  display:flex;
+  justify-content: space-between;
+
+}
+.box-2{
+  display:flex;
+  justify-content: space-between;
 }
 .container-2{
   border: solid;
-  border-color: red;
+  border-color: blue;
   padding: 30px;
   width: 770px;
   background-color: green;
@@ -43,22 +58,30 @@ height: 200px;
 .container-2 {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 .container-3{
 border: solid;
-border-color: green;
+border-color: blue;
 padding: 50px;
 width: 750px;
+background-color: green;
 }
 
-.container-3{
+.formulaire, #pays{
 display: flex;
-align-items: flex-end;
-flex-direction: column;
+border: solid;
+border-color: white;
+align-items: flex-start;
+width: 180px;
 }
 
+input{
+display: inline-block;
+size: 200px;
+}
 select{
-  background-color: green;
+  background-color: violet;
 }
 /*github: summary;ce qu'on a fait
 commit et en haut a droite publish*/
