@@ -6,26 +6,33 @@ border: solid;
 padding: 8px;
 background-color: red;
 width: 750px;
+margin-left:45%;
+margin-right:30%;
 }
 
 body {
 color: white;
 font-weight: bold;
 width:600px;
-margin-left:25%;
-margin-right:25%;
-background:linear-gradient(yellow, red);
+background:linear-gradient(#0EF0C5, black);
+
 }
-#homme{
+#homme:hover{
   text-align: center;
   font-size: 23px;
   font-family: Bernard MT Condensed;
+  background: firebrick;
+  width: 250px;
+  transition: 2s;
   }
 
-#femme{
+#femme:hover{
   text-align: center;
   font-size: 23px;
   font-family: Bernard MT Condensed;
+  background: blue;
+  width: 250px;
+  transition: 2s;
 }
 #image1{
   width: 250px;
@@ -45,15 +52,23 @@ height: 150px;
   border-color: white;
   padding: 40px;
   width: 760px;
-  background-color: green;
+  background:linear-gradient(red, black);
+  margin-left:45%;
+  margin-right:30%;
 }
 .box-1{
   display:flex;
   justify-content: space-between;
 }
-#label{
+h2{
+border: solid;
+border-color: white;
+width:750px;
 font-size: 35px;
-margin: auto;
+margin-left:45%;
+margin-right:30%;
+font-size: 35px;
+background-color: blue;
 }
 
 .box-2{
@@ -65,7 +80,9 @@ margin: auto;
   border-color: white;
   padding: 30px;
   width: 770px;
-  background-color: green;
+  background:linear-gradient(blue, black);
+  margin-left:45%;
+  margin-right:30%;
 }
 
 .container-2 {
@@ -74,9 +91,12 @@ margin: auto;
   flex-wrap: wrap;
 }
 
-.box-4{
+.box-4:hover{
   font-size: 18px;
   text-align: center;
+  transition-duration: 3s;
+  transition-timing-function: ease;
+  transform: translateX(-250px);
 }
 #kite2{
   font-style: italic;
@@ -94,9 +114,13 @@ margin: auto;
   color: red;
 }
 
-.box-6{
+.box-6:hover{
   font-size: 18px;
   text-align: center;
+  background: firebrick;
+  width: 200px;
+ transition: 5S;
+    transform: scale(2) translate(500px);
 }
 
 #voile2{
@@ -105,29 +129,35 @@ margin: auto;
   color: red;
 }
 
-
 .container-3{
 border: solid;
 border-color: white;
 padding: 50px;
-width: 750px;
-background-color: green;
+width: 1369px;
+background-image:url(https://images6.alphacoders.com/314/314064.jpg) ;
 }
 
-.formulaire, #pays{
-display: flex;
+.formulaire{
 border: solid;
 border-color: white;
-align-items: flex-start;
-width: 180px;
+background-color: grey;
+width: 450px;
 }
-
+.formulaire{
+  display: flex;
+  align-items: flex-end;
+}
 input{
-display: inline-block;
-size: 200px;
+  display: block;
+  size: 200px;
+}
+input:hover{
+transition-property: background-color;
+transition-duration: 2s;
+transition-delay: 0s;
+background-color: yellow;
+
 }
 select{
   background-color: violet;
 }
-/*github: summary;ce qu'on a fait
-commit et en haut a droite publish*/
