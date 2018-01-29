@@ -97,15 +97,20 @@ background-color: blue;
   transition-duration: 3s;
   transition-timing-function: ease;
   transform: translateX(-250px);
+  background: firebrick;
 }
 #kite2{
   font-style: italic;
   font-size: 20px;
   color: red;
 }
-.box-5{
+.box-5:hover{
   font-size: 18px;
   text-align: center;
+ background: firebrick;
+  transition-duration: 3s;
+  transition-timing-function: ease;
+  transform: translateX(-250px);
 }
 
 #surf2{
@@ -120,7 +125,7 @@ background-color: blue;
   background: firebrick;
   width: 200px;
  transition: 5S;
-    transform: scale(2) translate(500px);
+  transform: translatex(250px);
 }
 
 #voile2{
@@ -142,10 +147,9 @@ border: solid;
 border-color: white;
 background-color: grey;
 width: 450px;
-}
-.formulaire{
-  display: flex;
-  align-items: flex-end;
+display: flex;
+justify-content: space-between;
+text-align: center;
 }
 input{
   display: block;
@@ -162,5 +166,5 @@ select{
 }
 
 h3{
-  font-size: 32px;
+  font-size: 17px;
 }
